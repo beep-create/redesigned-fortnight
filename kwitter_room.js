@@ -24,10 +24,12 @@ localStorage.setItem("room_name", room_name);
 window.location="kwitter_page.html";
 }
 
-function logOut() {
-window.location="index.html"
-}
-
+function logout() {
+  localStorage.removeItem("user_name");
+  localStorage.removeItem("room_name");
+  window.location.replace("index.html");
+  }
+  
 function redirectToRoomName(name) {
   console.log(name);
   localStorage.setItem("room_name", room_name);
