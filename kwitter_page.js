@@ -1,13 +1,13 @@
 //YOUR FIRE BASE LINKS
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCL9VazUxtMhD2TCoXdNpPkIIUmUshfTks",
-  authDomain: "twitter-6d065.firebaseapp.com",
-  databaseURL: "https://twitter-6d065-default-rtdb.firebaseio.com",
-  projectId: "twitter-6d065",
-  storageBucket: "twitter-6d065.appspot.com",
-  messagingSenderId: "687952230904",
-  appId: "1:687952230904:web:72649c6612fdb016d57e0d"
+  apiKey: "AIzaSyCoItS6pb2DqRId4cQChCh1QbNlnJtxoR4",
+  authDomain: "twitter-155a9.firebaseapp.com",
+  databaseURL: "https://twitter-155a9-default-rtdb.firebaseio.com",
+  projectId: "twitter-155a9",
+  storageBucket: "twitter-155a9.appspot.com",
+  messagingSenderId: "120147529027",
+  appId: "1:120147529027:web:9aa562dc6844648916b3f6"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
